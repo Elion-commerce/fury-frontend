@@ -19,7 +19,7 @@ body{
 font-family: sans-serif;
 display: flex;
 background-color: #344A71;
-height: 4em;
+height: 3.5em;
 width: 100%;
 padding-top: 3em;
 padding-bottom: 1.5em;
@@ -94,11 +94,11 @@ border-style: solid;
 border-color: white;
 border-width: 1.5px;
 padding: 5px;
-transition:1s;
+transition:.5s;
 }
 
 #Signup_btn :hover{
-    transition: 800ms;
+    transition: 400ms;
     padding: .5em .5em .5em .5em;
 }
 /* end of the Navigation bar */
@@ -113,33 +113,39 @@ transition:1s;
     line-height: 2em;
     background-position: center;
     text-align: center;
-    height: 23em;
+    height: 400px;
     color: white;
    
 }
 
 .slogan img{
     width: inherit;
-    height: 350px;
+    height: 400px;
     background-position: right;
     
 }
 #slogan_content{
     position: absolute;
-    padding: 1em;
-  top: 8.5em;
+padding: 1em;
+  top: 8.0em;
     background-color: rgba(0, 0, 0, 0.61);
-    height: 319px;
+    height: 369px;
     right: 0px;
     left: 0px;
 }
 
 #slogan_content p{
+    padding-top: 20px;
     padding-left:10%;
     padding-right: 10%;
     font-size: 20px;
 }
 
+#slogan_content h1{
+padding-top: 60px;
+font-size: 60px;
+
+}
 /* THE MAIN CONTANT STYLING */
 #main{
     position: relative;
@@ -187,14 +193,14 @@ font-size: 25px;
 padding: .5em;
 width: 9em;
 color: blanchedalmond;
-transition: 1s ease;
+transition: .5s ease;
 }
 
 .card_btn:hover{
 
     background-color:  rgb(55, 45, 92);
     width: 10em;
-    transition: 1s ease;
+    transition: .5s ease;
     }
     
 /* THIS LIFTS THE CAED LABELS INT TO THE IMAGE SPACE */
@@ -254,12 +260,11 @@ margin: 15px;
 footer a{
     text-decoration: none;
     color: white;
-     text-decoration: none;
-     transition:1s;
+    transition:1s;
    
 }
 footer a:hover{
-font-size: larger;
+    font-size: larger;
     transition: 1s;
 }
 
@@ -290,12 +295,13 @@ font-size: larger;
 /* FOR MOBILE DORP DOWN */
 .span_class3{
     z-index: 2;
-position: absolute;
-left: -4.5em;
-top:3.2em;
-padding: 1.5em;
-background-color: rgba(7, 11, 63, 0.644);
-
+    position: absolute;
+    left: -148px;
+    top:3.2em;
+    padding: 15px;
+    background-color: rgba(7, 11, 63, 0.925);
+width: 150px;
+transition: .5s;
 }
 
 .span_class3 div{
@@ -303,7 +309,6 @@ background-color: rgba(7, 11, 63, 0.644);
     margin: 0em 2em 1em 1em;
    
 }
-
 
 
 /* cards edit style */
@@ -333,11 +338,12 @@ font-size: 1em;
 /* FOOTER STYLINGS */
 
 #copywrite{   
-    font-size: .8em;
+    font-size: .85em;
 }
 
 #footerlinks{
 padding-left: 0.5em;
+margin-top: 10px;
 }
 
 footer{
