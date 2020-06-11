@@ -9,9 +9,10 @@
 <body>
     <div class="Nav">
             <span class="span_class1"><a href=""><h1><b>Lauxary</b> </h1><h2>Hotel</h2></a></span>
+            <span id="menu_btn"><a onclick="myFunction()"><img src=".//docs/assets/images/menu_btn.png" alt=""></a></span>
             <span class="span_class2">
 
-                    <span class="span_class3">
+                    <span class="span_class3" id="navie">
 
                                 <span id="Navlinks"><h2><a href="">HOME</a></h2></span>
                                 <span id="Navlinks"><h2><a href="">ROOMS</a></h2></span>
@@ -176,6 +177,19 @@
         
 
     </footer>
+    <script>
+        function myFunction() {
+    var x = document.getElementById("navie");
+    if (x.style.display === "none") {
+      x.style.transition = ".5s"; 
+      x.style.display = "block";
+     
+    } else {
+      x.style.display = "none";
+      x.style.transition = ".5s";
+    }
+}
+    </script>
 </body>
 
 </html>

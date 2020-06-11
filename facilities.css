@@ -9,7 +9,7 @@ body{
 .Nav a{
     color: white;
      text-decoration: none;
-     border-bottom: 2px solid transparent;
+
      transition:1s;
 }
 
@@ -67,21 +67,24 @@ font-weight: bold;
 padding-right: 1em;
 
 }
-.span_class3  :hover{
+#Navlinks  :hover{
     transition: 500ms;
     border-color: white;
 }
-.span_class3  :active{
+#Navlinks :active{
    
     border-color: white;
 }
 
 #Navlinks{
+
     font-size: .8em;
     padding-right: .4em;
     padding-bottom: 0;
 }
-
+#Navlinks a{
+    border-bottom: 2px solid transparent;
+}
 
 
 
@@ -274,16 +277,30 @@ footer a:hover{
     margin-right: 5em;
 }
 
+#menu_btn{
+display: none;
 
+}
 
 
 
 
 
 /* FOR DASIC MOBILE STYLING */
-@media screen and (max-width:789px){
-.span_class3{
-    display: block;
+@media screen and (max-width:768px){
+button{
+    outline-style: none;
+}
+#menu_btn{
+position: absolute;
+top: 65px;
+right: 50px;
+display: block;
+
+}
+#navie{
+    display:none;
+
 }
 
 #Navlinks{
@@ -302,6 +319,7 @@ footer a:hover{
     background-color: rgba(7, 11, 63, 0.925);
 width: 150px;
 transition: .5s;
+font-size: 15px;
 }
 
 .span_class3 div{
